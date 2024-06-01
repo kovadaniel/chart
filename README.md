@@ -1,5 +1,5 @@
 # Ready app is available by this link
-https://dashboard.render.com/static/srv-cpdcr8nsc6pc738s7520
+https://chart-io-uuu0.onrender.com/
 
 # Getting Started with Create React App
 
