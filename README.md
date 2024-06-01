@@ -1,3 +1,6 @@
+# Ready app is available by this link
+https://dashboard.render.com/static/srv-cpdcr8nsc6pc738s7520
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
