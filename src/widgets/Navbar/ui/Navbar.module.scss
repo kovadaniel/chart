@@ -1,0 +1,14 @@
+@import "app/styles/variables/global.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--navbar-height);
+  margin-bottom: 10px;
+
+  &__title {
+    font: var(--font-m);
+    font-weight: 500;
+  }
+}

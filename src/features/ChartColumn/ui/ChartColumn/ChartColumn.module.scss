@@ -1,0 +1,53 @@
+.wrap {
+  padding-top: 9px;
+  background-color: #fff;
+}
+
+.column {
+  width: var(--chart-width);
+  border-radius: 10px;
+  overflow: hidden;
+
+  &__section {
+    padding: 2px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--font-s);
+    font-weight: bold;
+    color: var(--inverted-primary-color);
+  
+    &_front {
+      background-color: var(--metric-1);
+    }
+  
+    &_back {
+      background-color: var(--metric-2);
+    }
+  
+    &_db {
+      background-color: var(--metric-3);
+    }
+
+    &_base {
+      background: repeating-linear-gradient(-45deg, var(--metric-norm), var(--metric-norm) 10px, transparent 10px, transparent 20px);
+    }
+  }
+
+  &__label {
+    padding: 4px 11px;
+    border-radius: 5px;
+    background-color: #fff;
+    font: var(--font-s);
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  &__title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font: var(--font-xs);
+  }
+}

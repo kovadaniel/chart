@@ -1,0 +1,25 @@
+.legend {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+        border-radius: 3px;
+
+        &_client {
+            background-color: var(--metric-1);
+        }
+        &_server {
+            background-color: var(--metric-2);
+        }
+        &_db {
+            background-color: var(--metric-3);
+        }
+    }
+
+    &__text{
+        font: var(--font-xs);
+    }
+} 

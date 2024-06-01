@@ -1,0 +1,10 @@
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    font: var(--font-s);
+    font-weight: bold;
+    color: var(--inverted-primary-color);
+}
